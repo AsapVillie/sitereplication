@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans&display=swap");
+
+body {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fira Sans";
+  font-weight: 700;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 20px;
+}
+a {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#logo {
+  width: 48px;
+  height: 56px;
+  margin-left: 20px;
+}
+#navbar {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+.navbar-buttons {
+  background-color: white;
+  border: none;
+  color: #e45826;
+  padding: 11px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar-buttons:hover {
+  background-color: #e45826;
+  color: white;
+}
+#main-intro {
+  max-width: auto;
+  padding-bottom: 30px;
+}
+#intro {
+  background-color: #4a3933;
+  max-width: 65%;
+  height: 310px;
+  display: inline-block;
+  padding-top: 10px;
+}
+#view-product-button {
+  background-color: #e45826;
+  border: none;
+  color: white;
+  padding: 13px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.intro-heading {
+  color: #f0a500;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+#honey-valley {
+  margin-bottom: -10px;
+}
+.intro-text {
+  color: white;
+  margin-left: 20px;
+  padding-right: 15px;
+}
+.intro-image {
+  float: right;
+  width: 35%;
+}
+
+#honey-intro-image {
+  object-fit: cover;
+  background: no-repeat center/100%;
+  width: 100%;
+  height: 320px;
+}
+
+#honey-product-heading {
+  margin-left: 20px;
+}
+#honey-product-image_container {
+  display: inline-block;
+  position: relative;
+  max-width: 20%;
+  max-height: 30%;
+  margin: 10px;
+}
+#honey-product_container {
+  display: inline-block;
+}
+#honey-product-image {
+  object-fit: contain;
+  width: 100%;
+  position: relative;
+  top: -60px;
+}
+
+.honey-product-offer {
+  display: inline-block;
+  background-color: #f8f5f1;
+  width: 25%;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0.5px lightgray;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  margin-right: 5px;
+  height: 450px;
+  padding-top: 30px;
+}
+
+#honey-product-offer_most-popular {
+  position: relative;
+  top: -36px;
+  display: inline-block;
+  background-color: #e45826;
+  width: 25%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 10px 62px 10px;
+}
+.honey-product-button {
+  position: relative;
+  background-color: #e45826;
+  border: none;
+  color: white;
+  padding: 13px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  width: 220px;
+  left: -10px;
+  top: 5px;
+}
+#honey-product-offer_mp {
+  position: relative;
+  background-color: #f8f5f1;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  height: 430px;
+  padding-top: 1px;
+  top: 10px;
+}
+
+#honey-product-offer1 {
+  position: relative;
+  top: 10px;
+}
+#honey-product-offer2 {
+  position: relative;
+  top: -30px;
+}
+
+#most-popular-text {
+  color: white;
+  margin: 0;
+  margin-bottom: -10px;
+}
+
+#benefits-honey_background {
+  background-color: #e6d5b8;
+}
+#benefits-honey_heading {
+  margin-left: 20px;
+}
+#benefits-honey_container {
+  display: inline-block;
+  margin-left: 30px;
+}
+#benefits-honey_heading {
+  position: relative;
+  top: 40px;
+}
+.honey-benefits {
+  width: 30%;
+  text-align: left;
+  float: left;
+  max-height: 40%;
+  padding: 20px;
+}
+#testimonial_container {
+  margin-left: 10px;
+}
+.person-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-message {
+  background-color: #f8f5f1;
+  display: inline-block;
+  text-align: center;
+  width: 29%;
+  padding: 25px 15px 30px 15px;
+  box-shadow: 0px 0px 5px 0.5px lightgray;
+  border-radius: 5px;
+  margin: 20px 10px 20px 10px;
+  vertical-align: text-top;
+
+  height: 450px;
+}
+
+.testimonial-message:hover {
+  background-color: #e45826;
+  color: white;
+}
+.testimonal-text {
+  font-style: italic;
+}
+#footer-banner {
+  background-color: #4a3933;
+  color: white;
+  padding: 0px 0px 15px 20px;
+}
+#purchase-button {
+  position: relative;
+  background-color: #e45826;
+  border: none;
+  color: white;
+  padding: 13px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  width: 320px;
+  left: 420px;
+}
+#footer-banner h1 {
+  display: inline-block;
+}
+#testimonial-heading {
+  margin: 20px;
+}
+#footer {
+  background-color: #f8f5f1;
+}
+
+.footer-item {
+  display: inline-block;
+  vertical-align: text-top;
+}
+#footer ul {
+  list-style-type: none;
+  color: #e45826;
+}
+#footer h2 {
+  text-align: center;
+}
+#copyright {
+  color: #e45826;
+  text-align: center;
+}
